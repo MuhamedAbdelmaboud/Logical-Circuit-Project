@@ -1,4 +1,4 @@
-# 🚗 Parking Lot Counter
+#  Parking Lot Counter
 
 > **Course-Based Repo for CS 221 — Logical Circuits**  
 > Taken at Spring 2026 with **Professor Osama Khoziem**  
@@ -6,17 +6,17 @@
 
 ---
 
-## 👥 Team Members
+##  Team Members
 
 | Name |
 |------|
 | Muhamed Abdelmaboud |
-| Yousseif Mansour |
 | Mohamed Hassen |
+| Yousseif Mansour |
 
 ---
 
-## 📌 What Is This Project?
+##  What Is This Project?
 
 This is a **digital logic circuit** built in **Logisim Evolution** that simulates a real parking lot entrance/exit system.
 
@@ -29,7 +29,7 @@ The idea is simple:
 
 ---
 
-## 🖼️ Circuit Overview
+## Circuit Overview
 
 ```
   [ENTER Button] ──→ AND Gate ──────────────────────────→ ┐
@@ -54,7 +54,7 @@ The idea is simple:
 
 ---
 
-## ⚙️ How the Logic Works
+## How the Logic Works
 
 1. **UP/DOWN Counter (4-bit)**
    Counts from 0 to 15. The UP input connects to ENTER (through an AND gate). DOWN connects directly to EXIT.
