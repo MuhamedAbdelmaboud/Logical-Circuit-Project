@@ -91,11 +91,11 @@ The idea is simple:
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Download **Logisim Evolution** (free): https://github.com/logisim-evolution/logisim-evolution
 2. Open `parking_counter.circ`
-3. Switch to **Simulation Mode** (the hand icon ☝️)
+3. Switch to **Simulation Mode** (the hand icon )
 4. Click **ENTER** to simulate a car entering
 5. Click **EXIT** to simulate a car leaving
 6. Watch the Hex Display update and the LEDs respond
@@ -103,7 +103,7 @@ The idea is simple:
 
 ---
 
-## 🎯 Concepts Demonstrated
+## Concepts Demonstrated
 
 - **Sequential Logic** — Up/Down Counter with enable and reset
 - **Combinational Logic** — AND/NOT gates for entry control
@@ -113,7 +113,7 @@ The idea is simple:
 
 ---
 
-## 📁 Files in This Repo
+##  Files in This Repo
 
 | File | Description |
 |---|---|
