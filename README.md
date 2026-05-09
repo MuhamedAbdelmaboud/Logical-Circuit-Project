@@ -28,6 +28,8 @@ The idea is simple:
 - A green **Available** light stays on whenever there is still space
 
 ---
+## Logisim Circuit
+<img width="1052" height="776" alt="image" src="https://github.com/user-attachments/assets/f5f7cb23-ee59-4da8-932d-064ab739fb89" />
 
 ## Circuit Diagram
 
@@ -65,11 +67,11 @@ The idea is simple:
 
 2. **Comparator**
    Constantly compares the current count (A) to the constant 10 (B).
-   When `A ≥ B`, the output goes HIGH → lot is full.
+   When `A ≥ B`, the output goes HIGH so lot is full.
 
 3. **AND Gate + NOT Gate (entry control)**
    The FULL signal is inverted by a NOT gate and fed into the AND gate.
-   This means: ENTER only works when the lot is NOT full. When full → entrance locked automatically.
+   This means: ENTER only works when the lot is NOT full. When full so entrance locked automatically.
 
 4. **Hex Display**
    Wired directly to the counter output. Always shows the live car count.
@@ -109,11 +111,11 @@ The idea is simple:
 
 ## Concepts Demonstrated
 
-- **Sequential Logic** — Up/Down Counter with enable and reset
-- **Combinational Logic** — AND/NOT gates for entry control
-- **Arithmetic Logic** — Comparator for capacity checking
-- **I/O Interfacing** — Hex display + LED visual outputs
-- **Feedback Loop** — Comparator output feeds back to block the ENTER path
+- **Sequential Logic** Up/Down Counter with enable and reset
+- **Combinational Logic** AND/NOT gates for entry control
+- **Arithmetic Logic** Comparator for capacity checking
+- **I/O Interfacing** Hex display + LED visual outputs
+- **Feedback Loop** Comparator output feeds back to block the ENTER path
 
 ---
 
