@@ -1,4 +1,4 @@
-#  Parking Lot Counter
+# Parking Lot Counter
 
 > **Course-Based Repo for CS 221 — Logical Circuits**  
 > Taken at Spring 2026 with **Professor Osama Khoziem**  
@@ -6,7 +6,7 @@
 
 ---
 
-##  Team Members
+## Team Members
 
 | Name |
 |------|
@@ -16,7 +16,7 @@
 
 ---
 
-##  What Is This Project?
+## What Is This Project?
 
 This is a **digital logic circuit** built in **Logisim Evolution** that simulates a real parking lot entrance/exit system.
 
@@ -28,6 +28,10 @@ The idea is simple:
 - A green **Available** light stays on whenever there is still space
 
 ---
+
+## Circuit Diagram
+
+![Parking Lot Counter Circuit](circuit_diagram.png)
 
 ## Circuit Overview
 
@@ -76,7 +80,7 @@ The idea is simple:
 
 ---
 
-## 🔧 Components Used
+## Components Used
 
 | Component | Library in Logisim | Purpose |
 |---|---|---|
@@ -113,7 +117,7 @@ The idea is simple:
 
 ---
 
-##  Files in This Repo
+## Files in This Repo
 
 | File | Description |
 |---|---|
