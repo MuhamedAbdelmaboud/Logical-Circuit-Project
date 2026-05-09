@@ -31,7 +31,7 @@ The idea is simple:
 
 ## Circuit Diagram
 
-![Parking Lot Counter Circuit](circuit_diagram.png)
+<img width="920" height="620" alt="circuit_diagram" src="https://github.com/user-attachments/assets/47f948f6-ecb5-4a5a-934b-49751da15bb6" />
 
 ## Circuit Overview
 
