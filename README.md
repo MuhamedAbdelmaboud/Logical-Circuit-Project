@@ -28,12 +28,6 @@ The idea is simple:
 - A green **Available** light stays on whenever there is still space
 
 ---
-## Logisim Circuit
-<img width="1052" height="776" alt="image" src="https://github.com/user-attachments/assets/f5f7cb23-ee59-4da8-932d-064ab739fb89" />
-
-## Circuit Diagram
-
-<img width="920" height="620" alt="circuit_diagram" src="https://github.com/user-attachments/assets/47f948f6-ecb5-4a5a-934b-49751da15bb6" />
 
 ## Circuit Overview
 
