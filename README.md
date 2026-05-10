@@ -117,5 +117,5 @@ The idea is simple:
 
 | File | Description |
 |---|---|
-| `parking_counter.circ` | Main Logisim circuit file — open this in Logisim |
+| `parking_counter.circ` | Main Logisim circuit file - open this in Logisim |
 | `README.md` | This file |
