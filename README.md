@@ -1,12 +1,12 @@
 # Parking Lot Counter
 
-> **Course-Based Repo for CS 221 — Logical Circuits**  
+> **Course-Based Repo for CS 221 - Logical Circuits**  
 > Taken at Spring 2026 with **Professor Osama Khoziem**  
 > at **Sadat Academy for Management Sciences**
 
 ---
 
-## Team 68 Members
+## Team 6 Members
 
 | Name |
 |------|
@@ -28,49 +28,19 @@ The idea is simple:
 - A green **Available** light stays on whenever there is still space
 
 ---
-
-## Circuit Overview
-
-```
-  [ENTER Button] ──→ AND Gate ──────────────────────────→ ┐
-                        ↑ (blocked by NOT Gate when Full)  │
-                        └──────────────────────────────┐   │
-                                                        │   ↓
-  [EXIT Button]  ────────────────────────────────────→ UP/DOWN Counter (4-bit)
-                                                                │
-  [RESET Button] ──────────────────────────────────────→ RST   │
-                                                                │
-                                                ┌──────────────┴──────────────┐
-                                                │                             │
-                                          Hex Display              Comparator (A vs B)
-                                         (shows count)              B = Constant (10)
-                                                                          │
-                                                              ┌───────────┴───────────┐
-                                                              │                       │
-                                                         A ≥ B = HIGH             NOT Gate
-                                                              │                       │
-                                                        LED 🔴 FULL           LED 🟢 Available
-```
-
----
-
 ## How the Logic Works
 
 1. **UP/DOWN Counter (4-bit)**
    Counts from 0 to 15. The UP input connects to ENTER (through an AND gate). DOWN connects directly to EXIT.
 
-2. **Comparator**
-   Constantly compares the current count (A) to the constant 10 (B).
-   When `A ≥ B`, the output goes HIGH so lot is full.
-
-3. **AND Gate + NOT Gate (entry control)**
+2. **AND Gate + NOT Gate (entry control)**
    The FULL signal is inverted by a NOT gate and fed into the AND gate.
    This means: ENTER only works when the lot is NOT full. When full so entrance locked automatically.
 
-4. **Hex Display**
+3. **Hex Display**
    Wired directly to the counter output. Always shows the live car count.
 
-5. **LEDs**
+4. **LEDs**
    - 🔴 Red LED — lights up when lot is full
    - 🟢 Green LED — lights up when space is available (NOT of FULL signal)
 
@@ -107,9 +77,7 @@ The idea is simple:
 
 - **Sequential Logic** Up/Down Counter with enable and reset
 - **Combinational Logic** AND/NOT gates for entry control
-- **Arithmetic Logic** Comparator for capacity checking
 - **I/O Interfacing** Hex display + LED visual outputs
-- **Feedback Loop** Comparator output feeds back to block the ENTER path
 
 ---
 
@@ -117,5 +85,5 @@ The idea is simple:
 
 | File | Description |
 |---|---|
-| `parking_counter.circ` | Main Logisim circuit file - open this in Logisim |
+| `parking counter.circ` | Main Logisim circuit file - open this in Logisim |
 | `README.md` | This file |
