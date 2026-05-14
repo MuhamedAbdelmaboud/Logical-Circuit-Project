@@ -41,8 +41,8 @@ The idea is simple:
    Wired directly to the counter output. Always shows the live car count.
 
 4. **LEDs**
-   - 🔴 Red LED — lights up when lot is full
-   - 🟢 Green LED — lights up when space is available (NOT of FULL signal)
+   -  Red LED - lights up when lot is full
+   -  Green LED - lights up when space is available (NOT of FULL signal)
 
 ---
 
